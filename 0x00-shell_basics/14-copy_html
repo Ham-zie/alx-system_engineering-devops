@@ -1,2 +1,2 @@
 #!/bin/bash
-cp ls . .. /.html
+cp ls . .. /tmp/file_0.html
