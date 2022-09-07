@@ -1,2 +1,2 @@
 #!/bin/bash
-count $PATH | tr -s ":" "\n" | wc -|
+echo$PATH | tr -s ":" "\n" | wc -|
