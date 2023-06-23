@@ -1,22 +1,31 @@
-# Mysql
+# :shell: 0x14 - MySQL Primary/Replica :shell:
 
-This project involved learning how to configure database servers in a
-primary-replica model. I configured the two servers.
-MySQL primary-replica setup with a dummy database,
-and wrote a Bash script to automate generation of database backups.
+In this project I will be configuring a master mysql server setup with slave servers for replication. These will be done on remote servers running in Holberton's cloud.
 
-## Tasks :page_with_curl:
+## :running: Getting Started
 
-* [4-mysql_configuration_primary](./4-mysql_configuration_primary): The MySQL
-`my.conf` configuration file used to set up my first server as a primary database
-server on the database `tyrell_corp`.
+* [Ubuntu 14.04 LTS](http://releases.ubuntu.com/14.04/) - Operating system reqd.
 
-* [4-mysql_configuration_replica](./4-mysql_configuration_replica): The MySQL
-`my.conf` configuration file used to set up my second server as the replica
-database server on the database `tyrell_corp`.
+## :warning: Prerequisites
 
-* [5-mysql_backup](./5-mysql_backup): Bash script that generates a compressed
-`tar.gz` archive from a MySQL dump.
-  * Usage: `./5-mysql_backup <MySQL root password>`
-  * Generates a dump containing all MySQL databases on the root server.
-  * Names the resulting tar archive in the format `day-month-year.tar.gz`.
+* Must have `git` installed
+
+* Must have repository cloned
+
+
+```
+$ sudo apt-get install git
+```
+
+## :blue_book: Authors
+* **Julius Kamara** - [@julius-ashley](https://github.com/julius-ashley)
+
+## :mag: License
+
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/julius-ashley/alx-system_engineering-devops/blob/master/LICENSE.md) file for details
+
+
+
+## :mega: Acknowledgments
+
+* Alx (providing guidance)
