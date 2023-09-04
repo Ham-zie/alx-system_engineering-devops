@@ -18,11 +18,11 @@ $ sudo apt-get install git
 ```
 
 ## :blue_book: Authors
-* **Julius Kamara** - [@julius-ashley](https://github.com/julius-ashley)
+* **James Keddie Hamzie Kamara** - [@Ham-zie](https://github.com/ham-zie)
 
 ## :mag: License
 
-This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/julius-ashley/alx-system_engineering-devops/blob/master/LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/ham-zie/alx-system_engineering-devops/blob/master/LICENSE.md) file for details
 
 
 
